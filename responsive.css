@@ -1,0 +1,25 @@
+@media (max-width: 480px) {
+  body {
+    display: block;
+  }
+
+  .text {
+    margin-bottom: 50px;
+    line-height: 20px;
+  }
+
+  #parent-container {
+    flex-direction: column;
+  }
+
+  #sedans-container {
+    margin-top: 60px;
+    border-radius: 10px 10px 0 0;
+  }
+
+  #luxury-container {
+    border-radius: 0 0 10px 10px;
+    margin-bottom: 60px;
+  }
+  
+}
